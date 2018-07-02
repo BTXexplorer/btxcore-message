@@ -1,3 +1,3 @@
 # Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/underdarkskies/btxcore/blob/master/CONTRIBUTING.md) on the main btxcore repo.
+Please see [CONTRIBUTING.md](https://github.com/BTXexplorer/btxcore/blob/master/CONTRIBUTING.md) on the main btxcore repo.

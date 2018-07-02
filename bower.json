@@ -2,7 +2,7 @@
   "name": "btxcore-message",
   "main": "./btxcore-message.min.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/underdarkskies/btxcore-message",
+  "homepage": "https://github.com/BTXexplorer/btxcore-message",
   "authors": [
     "BitPay"
   ],
