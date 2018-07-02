@@ -1,29 +1,29 @@
-# Ravencoin Message Verification and Signing for Ravencore
+# bitcore Message Verification and Signing for btxcore
 
 
 
 
-ravencore-message adds support for verifying and signing ravencoin messages in [Node.js](http://nodejs.org/) and web browsers.
+btxcore-message adds support for verifying and signing bitcore messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main ravencore repo](https://github.com/underdarkskies/ravencore) for more information.
+See [the main btxcore repo](https://github.com/BTXexplorer/btxcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install ravencore-message
+npm install btxcore-message
 ```
 
 ```sh
-bower install ravencore-message
+bower install btxcore-message
 ```
 
 To sign a message:
 
 ```javascript
-var ravencore = require('ravencore-lib');
-var Message = require('ravencore-message');
+var btxcore = require('btxcore-lib');
+var Message = require('btxcore-message');
 
-var privateKey = ravencore.PrivateKey.fromWIF('5K2DxqJ9kLFL3hF3KEWDftAig3TyAXenDxpr27PaLBieuSFo5PQ');
+var privateKey = btxcore.PrivateKey.fromWIF('5K2DxqJ9kLFL3hF3KEWDftAig3TyAXenDxpr27PaLBieuSFo5PQ');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -37,8 +37,8 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/underdarkskies/ravencore/blob/master/CONTRIBUTING.md) on the main ravencore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/BTXexplorer/btxcore/blob/master/CONTRIBUTING.md) on the main btxcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/underdarkskies/ravencore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/BTXexplorer/btxcore/blob/master/LICENSE).

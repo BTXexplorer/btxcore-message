@@ -1,7 +1,7 @@
 {
-  "name": "ravencore-message",
+  "name": "btxcore-message",
   "version": "1.0.3",
-  "description": "Ravencoin Messages for Ravencore",
+  "description": "bitcore Messages for btxcore",
   "author": "Under",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "build": "gulp"
   },
   "keywords": [
-    "ravencoin",
-    "ravencore",
+    "bitcore",
+    "btxcore",
     "btc",
     "satoshi",
     "message",
@@ -20,15 +20,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/underdarkskies/ravencore-message.git"
+    "url": "https://github.com/BTXexplorer/btxcore-message.git"
   },
   "dependencies": {
-    "ravencore-lib": "underdarkskies/ravencore-lib"
+    "btxcore-lib": "BTXexplorer/btxcore-lib"
   },
   "peerDependencies": {
   },
   "devDependencies": {
-    "ravencore-build": "underdarkskies/ravencore-build",
+    "btxcore-build": "BTXexplorer/btxcore-build",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"

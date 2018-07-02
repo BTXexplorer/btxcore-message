@@ -1,4 +1,4 @@
-var ravencore = require('ravencore-lib');
-ravencore.Message = require('./lib/message');
+var btxcore = require('btxcore-lib');
+btxcore.Message = require('./lib/message');
 
-module.exports = ravencore.Message;
+module.exports = btxcore.Message;
